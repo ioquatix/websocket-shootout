@@ -24,5 +24,7 @@ module ActionCableServer
 
     # Do not care about origin in benchmarks
     config.action_cable.disable_request_forgery_protection = true
+    # Disable logging
+    config.logger = Logger.new(IO::NULL)
   end
 end
