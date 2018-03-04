@@ -1,13 +1,13 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    iodine (0.4.8)
-      rack
+    iodine (0.4.16)
+      rack (>= 1.0, < 3.0)
     plezi (0.15.0)
       bundler (~> 1.14)
       iodine (~> 0.4)
       rack (>= 2.0.0)
-    rack (2.0.3)
+    rack (2.0.4)
 
 PLATFORMS
   ruby
@@ -17,4 +17,4 @@ DEPENDENCIES
   plezi
 
 BUNDLED WITH
-   1.14.6
+   1.16.0
