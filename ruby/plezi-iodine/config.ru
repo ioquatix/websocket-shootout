@@ -48,6 +48,6 @@ class ShootoutApp
 
 end
 
-Plezi.route '*', ShootoutApp
+Plezi.route '/cable', ShootoutApp
 
 run Plezi.app
